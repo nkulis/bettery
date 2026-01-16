@@ -1,0 +1,193 @@
+(footprint "WR-WST-REDFIT-IDC-6pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC.pdf")
+	(tags "tag connect programming header pogo pins")
+	(property "Reference" "REF**"
+		(at 4.7 -0.6 0)
+		(layer "F.SilkS")
+		(uuid "f0ecbfe4-afd0-40c6-bc04-2f0f388e1bb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WR-WST-REDFIT-IDC-6pin"
+		(at -2.8 -2.1 0)
+		(layer "F.Fab")
+		(uuid "dbdd9565-ffd3-4e77-bbd8-a37bc4181243")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c934c71e-7006-432f-8258-15b2e68713b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e11969fe-50e5-4048-8deb-fdd93222409c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 1.4 -0.9)
+		(end 1.2 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "4a4a10d2-f9ed-43dd-b84d-dfbc0818c7af")
+	)
+	(fp_line
+		(start -9 -1.3)
+		(end 2.6 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "339b7a53-7f7c-4fc5-a2a7-d28cfbf5cf74")
+	)
+	(fp_line
+		(start -9 3.8)
+		(end -9 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6225a00d-9cd1-49c0-bca9-dcae4375a603")
+	)
+	(fp_line
+		(start 2.6 -1.3)
+		(end 2.6 3.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b64bb287-1568-4807-abd1-50270292ccd0")
+	)
+	(fp_line
+		(start 2.6 3.8)
+		(end -9 3.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b9fd7cc5-eb86-4f0d-8643-4808d8512e8e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.7 -4.2 0)
+		(layer "F.Fab")
+		(uuid "3eb6005c-2b76-4f2e-86a6-2c7ab04956e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -7.68 0)
+		(size 2.3749 2.3749)
+		(drill 2.3749)
+		(layers "*.Cu" "*.Mask")
+		(uuid "9ddad5fc-4d96-4afe-b9de-d17d7fb0ae5b")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.33 2.54)
+		(size 2.3749 2.3749)
+		(drill 2.3749)
+		(layers "*.Cu" "*.Mask")
+		(uuid "6d3d3bca-edd4-46c7-9001-f4eadf428439")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.85 1.85)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "272b010f-b970-488d-b2d7-db56ca13f3f4")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 2.54)
+		(size 1.85 1.85)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "43eaf183-52dd-45e6-889d-f68a3eaeb239")
+	)
+	(pad "3" thru_hole circle
+		(at -2.54 0)
+		(size 1.85 1.85)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cc9b4f98-348a-4455-9571-9a65f8a8f5e3")
+	)
+	(pad "4" thru_hole circle
+		(at -3.81 2.54)
+		(size 1.85 1.85)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "08495a1d-2eb1-4168-bf31-c874e0908314")
+	)
+	(pad "5" thru_hole circle
+		(at -5.08 0)
+		(size 1.85 1.85)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3404c692-75c5-446a-aad9-266b31384427")
+	)
+	(pad "6" thru_hole circle
+		(at -6.35 2.54)
+		(size 1.85 1.85)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c4919aa7-a395-4339-ba0b-3332ce5f0501")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/490107670612.stp"
+		(offset
+			(xyz -5.5 -1.3 6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
