@@ -6484,12 +6484,6 @@
 		(uuid "6f15306a-be3b-498e-8fdd-cf3df2457479")
 	)
 	(junction
-		(at 115.57 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "727782c7-5f06-436f-936d-af4da157625f")
-	)
-	(junction
 		(at 33.02 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6638,6 +6632,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d358b6ca-6511-4ea7-94dd-f46f84de1893")
+	)
+	(junction
+		(at 115.57 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d53123ff-b8a8-4bd0-a4b9-a52437b93e7b")
 	)
 	(junction
 		(at 97.79 173.99)
@@ -7675,16 +7675,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 113.03) (xy 115.57 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5868104b-7809-496f-a926-ade50801e325")
-	)
-	(wire
-		(pts
 			(xy 31.75 53.34) (xy 31.75 55.88)
 		)
 		(stroke
@@ -8245,6 +8235,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 101.6) (xy 115.57 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8820eb1b-fc4d-4081-b20a-7815b1822c4a")
+	)
+	(wire
+		(pts
 			(xy 228.6 119.38) (xy 228.6 120.65)
 		)
 		(stroke
@@ -8602,6 +8602,16 @@
 			(type default)
 		)
 		(uuid "9dea0b9d-c0e9-4303-bb71-effe621a0d7c")
+	)
+	(wire
+		(pts
+			(xy 115.57 113.03) (xy 115.57 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9edbfbba-aae7-4532-abf5-e8cc234b7786")
 	)
 	(wire
 		(pts
@@ -9112,16 +9122,6 @@
 			(type default)
 		)
 		(uuid "c9ab85b5-e870-4a3d-ac55-b4e4904f7c99")
-	)
-	(wire
-		(pts
-			(xy 115.57 101.6) (xy 115.57 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caeaa271-d921-4b15-9d5a-c27953222354")
 	)
 	(wire
 		(pts
@@ -11121,8 +11121,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 120.65 110.49 0)
-		(mirror y)
+		(at 120.65 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11130,7 +11129,7 @@
 		(dnp no)
 		(uuid "15c4c0f5-1a6c-4982-809d-2715334d8b6d")
 		(property "Reference" "J3"
-			(at 121.92 113.0301 0)
+			(at 121.92 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11139,7 +11138,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 121.92 110.4901 0)
+			(at 121.92 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11149,7 +11148,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 120.65 110.49 0)
+			(at 120.65 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11158,7 +11157,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 110.49 0)
+			(at 120.65 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11167,7 +11166,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 120.65 110.49 0)
+			(at 120.65 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
