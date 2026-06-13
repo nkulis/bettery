@@ -689,7 +689,7 @@
       {
         "filename": "bettery.kicad_sch",
         "name": "bettery",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "fc443818-0b42-44d2-90ec-6743fc747c18"
       }
     ],
     "used_designators": "",
@@ -698,7 +698,7 @@
   "sheets": [
     [
       "fc443818-0b42-44d2-90ec-6743fc747c18",
-      "Root"
+      "bettery"
     ]
   ],
   "text_variables": {},
